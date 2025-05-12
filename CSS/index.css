@@ -1,31 +1,27 @@
-*{
-    background-color: rgb(240, 240, 240);
-    margin: 10px;
-    padding: 0px;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    /* border: 1px solid red; */
 }
 
-ul li {
-    /* flex-direction: column;
-    flex: 1; */
-    display: inline;
+h1 {
+    color: blueviolet;
+    text-align: center;
 }
 
 li {
-
-    padding: 20px;
-    margin: 20px;
-    background-color: grey;
+    display: inline-block;
+    padding: 1rem;
+    margin: 2rem;
 }
 
-a {
+li a {
+
     text-decoration: none;
-    /* color: rgb(4, 0, 255); */
-    display: inline-flex;
-    transition: transform .5 ease-in-out;
+    }
+li a:hover{
     
-}
+    text-decoration: underline;
 
-a:hover{
-
-    transform: translateY(-5px);
 }
